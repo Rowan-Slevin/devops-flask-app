@@ -12,3 +12,8 @@ def about():
 	return ('<p>This application is running on the Flask web framework.</p>'
 		'<p><a href="https:..flask.palletsprojects.com/">Visit the Flask website</a></p>'
 		'<p><a href="/">Back to home</a></p>')
+
+@app.route('/contact')
+def contact():
+	return ('<p>Contact me here: C24386953@mytudublin.ie'
+		'<p><a href="/">Back to home</a></p>')
